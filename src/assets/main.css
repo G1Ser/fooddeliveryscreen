@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span {
+    font-size: 14px !important;
+    color: #464545;
+
+    &.css1 {
+        margin-left: 8px;
+        font-weight: 550;
+    }
+
+    &.increase {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-width: 4px;
+        border-style: solid;
+        border-color: transparent transparent green transparent;
+        margin-left: 10px;
+        transform: translateY(-50%);
+    }
+
+    &.decrease {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-width: 4px;
+        border-style: solid;
+        border-color: red transparent transparent transparent;
+        margin-left: 10px;
+    }
+    &.top3{
+        background-color: #09b3f7;
+        color: #fff;
+    }
+}
