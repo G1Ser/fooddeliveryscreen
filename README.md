@@ -7,7 +7,7 @@
 去高德地图申请一个Web服务密钥。
 ```sh
 //index.html 8行 设置你Web服务的密钥
-    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key="<Your Key>"></script> 
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key="<Your Key>"></script> 
 ```
 
 
